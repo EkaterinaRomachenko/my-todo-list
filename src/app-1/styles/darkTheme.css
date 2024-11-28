@@ -1,0 +1,23 @@
+:root[data-theme='dark'] {
+  --background-color: #8d62e9;
+  --text-color: #fff;
+  --text-color-hover: rgba(255, 255, 255, 0.8);
+  --text-color-dark: red;
+  --body-color: linear-gradient(21deg, #dd03e4, #5611ec);
+  --color-switch: #fff;
+  --button-backgroundColor: #1976d2;
+  --text-color-hover: #1976d2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #5611ec;
+    --text-color: #fff;
+    --text-color-hover: rgba(255, 255, 255, 0.8);
+    --text-color-dark: red;
+    --body-color: linear-gradient(21deg, #dd03e4, #5611ec);
+    --color-switch: #fff;
+    --button-backgroundColor: #1976d2;
+    --text-color-hover: #1976d2;
+  }
+}

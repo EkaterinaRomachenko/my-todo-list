@@ -1,0 +1,21 @@
+:root[data-theme='light'] {
+  --background-color: #eec8cf;
+  --text-color: #213547;
+  --text-color-hover: rgb(230, 141, 31);
+  --body-color: linear-gradient(90deg, #f598a8, #f6edb2);
+  --color-switch: grey;
+  --button-backgroundColor: #f36223;
+  --text-color-hover: #f36223;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #c9949d;
+    --text-color: #213547;
+    --text-color-hover: rgb(230, 141, 31);
+    --body-color: linear-gradient(90deg, #f598a8, #f6edb2);
+    --color-switch: grey;
+    --button-backgroundColor: #f36223;
+    --text-color-hover: #f36223;
+  }
+}
